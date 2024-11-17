@@ -50,7 +50,7 @@ const ProductDetails = () => {
                     id:product.id,
                     title:product.title,
                     description:product.description,
-                    image:product.image,
+                    image:product.images[0],
                     price:product.price,
                     
                 }))
